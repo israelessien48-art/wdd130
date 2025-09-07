@@ -60,6 +60,13 @@ aside img {
     height: auto;
 }
 
+nav a {
+  color: #fff;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
 section {
     margin: 20px 0;
     border: 1px solid rgb(0, 0, 0 / 10%);
