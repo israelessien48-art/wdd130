@@ -16,6 +16,7 @@
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  background-color: #fff;
 }
 
 header, main, footer {
@@ -35,6 +36,12 @@ nav, p, section, article {
 
 .socialmedia a {
   text-decoration: none;
+  margin: 0 8px;
+}
+
+.socialmedia img {
+  width: 40px;
+  height: auto;
 }
 
 .hero {
@@ -63,8 +70,10 @@ h1 {
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .hero article img {
