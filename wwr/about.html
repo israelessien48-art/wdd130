@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,12 @@
 </head>
 
 <body>
+
+    <!-- ===== HEADER ===== -->
     <header>
-        <img src="images/z-rapids-trees.jpg" alt="Rafting Company Logo" class="logo">
+        <div class="logo">
+            <img src="images/z-rapids-trees.jpg" alt="Rafting Company Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -26,41 +30,36 @@
 
     <main>
 
-        <!-- Intro section -->
-        <section class="intro">
-            <div class="intro-text">
-                <h1>White Water Rafting Co.</h1>
+        <!-- ===== INTRO / HERO ===== -->
+        <section class="hero">
+            <h1>White Water Rafting Co.</h1>
+            <div class="hero-grid" style="grid-template-columns: 1fr 200px;">
                 <p>
                     Our mission is to bring adventure, excitement, and unforgettable memories
                     to every rafting trip. Join us as we explore the rivers and create lasting bonds.
                 </p>
-            </div>
-            <div class="intro-image">
-                <img src="images/client.jpg" alt="Happy rafting client">
-            </div>
-        </section>
-
-        <!-- History three-column layout -->
-        <section class="history-grid">
-            <h2>History</h2>
-            <div class="history-text">
-                <p>
-                    Established in 1995, White Water Rafting Co. has been guiding adventurers
-                    through some of the most thrilling rivers in the country.
-                </p>
-            </div>
-            <div class="history-image">
                 <img src="images/hero.jpg" alt="Rafting on the river">
             </div>
-            <div class="history-text">
+        </section>
+
+        <!-- ===== HISTORY ===== -->
+        <section class="history">
+            <h2>History</h2>
+            <div class="history-grid">
                 <p>
-                    From humble beginnings, we’ve grown into one of the most trusted rafting companies,
-                    delivering safe and exciting experiences for all ages.
+                    Established in 1995, White Water Rafting Co. has been guiding adventurers
+                    through some of the most thrilling rivers in the country. From humble beginnings,
+                    we’ve grown into one of the most trusted rafting companies.
+                </p>
+                <img src="images/client.jpg" alt="Historic rafting moment">
+                <p>
+                    Over the years, thousands have experienced the rush of white-water with us.
+                    Our team of expert guides ensures every trip is safe, exhilarating, and unforgettable.
                 </p>
             </div>
         </section>
 
-        <!-- Adventures gallery with 5 items -->
+        <!-- ===== ADVENTURES GALLERY ===== -->
         <section class="adventures">
             <h2>Adventure Awaits You!</h2>
             <div class="adventure-gallery">
@@ -89,8 +88,9 @@
 
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <p>© 2024 White Water Rafting Adventures. | Israel Essien</p>
+        <p>© 2024 White Water Rafting Adventures | Israel Essien</p>
         <nav class="socialmedia">
             <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
             <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn Icon"></a>
@@ -101,6 +101,7 @@
             <a href="https://youtube.com"><img src="images/youtube.png" alt="Youtube Icon"></a>
         </nav>
     </footer>
+
 </body>
 
 </html>
