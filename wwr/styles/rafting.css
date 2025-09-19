@@ -75,10 +75,10 @@ header nav a:hover {
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: 150px 1fr 150px;
-  gap: 1rem;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 1rem;       /* or whatever spacing you prefer */
+    align-items: center;
 }
 
 .hero-grid p {
