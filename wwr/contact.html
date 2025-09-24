@@ -1,104 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Discover the mission and history of White Water Rafting Co. and join our exciting river adventures.">
+    <meta name="description" content="Contact White Water Rafting Company for inquiries, reservations, or suggestions.">
     <meta name="author" content="Israel Essien">
-    <title>About Us - White Water Rafting Co.</title>
+    <title>Contact Us - White Water Rafting Co.</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
+    <!-- ===== HEADER ===== -->
     <header>
-        <img src="images/z-rapids-trees.jpg" alt="Rafting Company Logo" class="logo">
+        <div class="logo">
+            <img src="images/z-rapids-trees.jpg" alt="Rafting Company Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting Adventure on the River">
-            <h1>White Water Rafting Co.</h1>
-            <article>
-                <img src="images/client.jpg" alt="Happy rafting client">
-                <p>
-                    Our mission is to bring adventure, excitement, and unforgettable memories
-                    to every rafting trip. Join us as we explore the rivers and create lasting bonds.
-                </p>
-            </article>
-        </div>
+        <h1>White Water Rafting Company</h1>
+        <address>
+            123 Main River Street<br>
+            Kolob, California<br>
+            +1 999 999 9999<br>
+            <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+        </address>
 
-        <section class="history">
-            <h2>History</h2>
-            <p>
-                Established in 1995, White Water Rafting Co. has been guiding adventurers
-                through some of the most thrilling rivers in the country. From humble beginnings,
-                we’ve grown into one of the most trusted rafting companies.
-            </p>
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="contact-section">
+            <div class="map">
+                <!-- Replace src with your actual Google Maps embed link if desired -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019785098509!2d-122.4194156846819!3d37.77492977975956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzMwLjAiTiAxMjLCsDI1JzA3LjkiVw!5e0!3m2!1sen!2sus!4v1610000000000"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <p>Message Purpose:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type here..."></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="btn">Get in Touch!</button>
+            </form>
         </section>
 
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
+        <!-- ===== EMPLOYEE PROFILES ===== -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-gallery">
                 <figure>
-                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo Rapids">
-                    <figcaption>Los Dientes del Diablo</figcaption>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Employee Profile</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/adventure2.jpg" alt="Big Mallard Rapids">
-                    <figcaption>Big Mallard</figcaption>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Employee Profile</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/adventure3.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure4.jpg" alt="Full Day Expedition">
-                    <figcaption>Full Day Expedition</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure5.jpg" alt="Sunset Float">
-                    <figcaption>Sunset Float</figcaption>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Employee Profile</figcaption>
                 </figure>
             </div>
         </section>
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <p>© 2024 White Water Rafting Adventures. | Israel Essien</p>
+        <p>© 2024 White Water Rafting Adventures | Israel Essien</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook Icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin.png" alt="LinkedIn Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpg" alt="Instagram Icon">
-            </a>
-            <a href="https://whatsapp.com">
-                <img src="images/whatsapp.jpg" alt="Whatsapp Icon">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter Icon">
-            </a>
-            <a href="https://telegram.com">
-                <img src="images/telegram.png" alt="Telegram Icon">
-            </a>
-            <a href="https://youtube.com">
-                <img src="images/youtube.png" alt="Youtube Icon">
-            </a>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <a href="https://whatsapp.com"><img src="images/whatsapp.jpg" alt="Whatsapp"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://telegram.com"><img src="images/telegram.png" alt="Telegram"></a>
+            <a href="https://youtube.com"><img src="images/youtube.png" alt="YouTube"></a>
         </nav>
     </footer>
+
 </body>
 
 </html>
