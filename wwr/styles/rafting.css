@@ -82,7 +82,7 @@ header nav a:hover {
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 200px;
-    gap: 1rem;       /* or whatever spacing you prefer */
+    gap: 1rem;
     align-items: center;
 }
 
@@ -257,3 +257,27 @@ footer .socialmedia img {
   border-radius: 50%;
 }
 
+/* === Contact Page Heading & Address === */
+main > h1 {
+  text-align: center;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin: 1.5rem 0;
+}
+
+main > address {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  margin: 1rem 0 2rem;
+  line-height: 1.6;
+}
+
+main > address a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main > address a:hover {
+  text-decoration: underline;
+}
