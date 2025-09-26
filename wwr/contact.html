@@ -8,10 +8,23 @@
     <meta name="author" content="Israel Essien">
     <title>Contact Us - White Water Rafting Co.</title>
     <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        /* keeps the heading accessible but invisible */
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
 </head>
 
 <body>
-
     <!-- ===== HEADER ===== -->
     <header>
         <div class="logo">
@@ -38,6 +51,8 @@
 
         <!-- ===== CONTACT SECTION ===== -->
         <section class="contact-section">
+            <h2 class="visually-hidden">Contact Form and Map</h2>
+
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019785098509!2d-122.4194156846819!3d37.77492977975956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzMwLjAiTiAxMjLCsDI1JzA3LjkiVw!5e0!3m2!1sen!2sus!4v1610000000000"
@@ -99,30 +114,22 @@
     <footer>
         <p>© 2024 White Water Rafting Adventures | Israel Essien</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Follow White Water Rafting Company on Facebook">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin.png" alt="Connect with White Water Rafting Company on LinkedIn">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpg" alt="See White Water Rafting adventures on Instagram">
-            </a>
-            <a href="https://whatsapp.com">
-                <img src="images/whatsapp.jpg" alt="Chat with White Water Rafting Company on WhatsApp">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Follow White Water Rafting Company on Twitter">
-            </a>
-            <a href="https://telegram.org">
-                <img src="images/telegram.png" alt="Join the White Water Rafting Company Telegram group">
-            </a>
-            <a href="https://youtube.com">
-                <img src="images/youtube.png" alt="Watch White Water Rafting Company videos on YouTube">
-            </a>
+            <a href="https://facebook.com"><img src="images/facebook.png"
+                    alt="Follow White Water Rafting Company on Facebook"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png"
+                    alt="Connect with White Water Rafting Company on LinkedIn"></a>
+            <a href="https://instagram.com"><img src="images/instagram.jpg"
+                    alt="See White Water Rafting adventures on Instagram"></a>
+            <a href="https://whatsapp.com"><img src="images/whatsapp.jpg"
+                    alt="Chat with White Water Rafting Company on WhatsApp"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png"
+                    alt="Follow White Water Rafting Company on Twitter"></a>
+            <a href="https://telegram.org"><img src="images/telegram.png"
+                    alt="Join the White Water Rafting Company Telegram group"></a>
+            <a href="https://youtube.com"><img src="images/youtube.png"
+                    alt="Watch White Water Rafting Company videos on YouTube"></a>
         </nav>
     </footer>
-
 </body>
 
 </html>
