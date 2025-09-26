@@ -31,7 +31,6 @@ footer {
 
 /* ---------- Header ---------- */
 header {
-  /* ✅ switched to CSS Grid to satisfy rubric */
   display: grid;
   grid-template-columns: auto 1fr; /* logo left, nav right */
   align-items: center;
@@ -39,13 +38,8 @@ header {
   padding: 1rem;
 }
 
-header .logo {
-  justify-self: start;
-}
-
-header nav {
-  justify-self: end;
-}
+header .logo { justify-self: start; }
+header nav { justify-self: end; }
 
 header nav ul {
   display: flex;
@@ -59,9 +53,7 @@ header nav a {
   font-weight: bold;
 }
 
-header nav a:hover {
-  text-decoration: underline;
-}
+header nav a:hover { text-decoration: underline; }
 
 /* ---------- Intro / Hero ---------- */
 .hero {
@@ -80,16 +72,13 @@ header nav a:hover {
 }
 
 .hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    gap: 1rem;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 1rem;
+  align-items: center;
 }
 
-.hero-grid p {
-  text-align: center;
-}
-
+.hero-grid p { text-align: center; }
 .hero-grid img {
   width: 100%;
   border-radius: 6px;
@@ -171,9 +160,7 @@ footer {
   border-radius: 0 0 6px 6px;
 }
 
-footer p {
-  margin: 0;
-}
+footer p { margin: 0; }
 
 footer .socialmedia {
   display: flex;
@@ -188,7 +175,7 @@ footer .socialmedia img {
 /* === Contact Page Layout === */
 .contact-section {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Map left, form right */
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin: 2rem 0;
   align-items: start;
@@ -227,13 +214,9 @@ footer .socialmedia img {
   cursor: pointer;
 }
 
-.contact-form .btn:hover {
-  background-color: #047a04;
-}
+.contact-form .btn:hover { background-color: #047a04; }
 
-.newsletter {
-  margin-top: 1rem;
-}
+.newsletter { margin-top: 1rem; }
 
 /* === Employee Profiles === */
 .employees {
@@ -248,10 +231,7 @@ footer .socialmedia img {
   flex-wrap: wrap;
 }
 
-.employee-gallery figure {
-  max-width: 180px;
-}
-
+.employee-gallery figure { max-width: 180px; }
 .employee-gallery img {
   width: 100%;
   border-radius: 50%;
@@ -277,14 +257,9 @@ main > address a {
   color: inherit;
   text-decoration: none;
 }
-
-main > address a:hover {
-  text-decoration: underline;
-}
+main > address a:hover { text-decoration: underline; }
 
 /* === Home Page Additions === */
-
-/* Large full-width hero with text overlay */
 .home-hero {
   position: relative;
   margin: 0 auto;
@@ -332,11 +307,8 @@ main > address a:hover {
   border-radius: 4px;
   cursor: pointer;
 }
-.newsletter button:hover {
-  background: #047a04;
-}
+.newsletter button:hover { background: #047a04; }
 
-/* Grid with image and text side-by-side */
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -384,6 +356,7 @@ main > address a:hover {
   color: var(--accent1-color);
 }
 
+/* === Call-to-Action Section (added) === */
 .cta {
   background: var(--secondary-color);
   text-align: center;
@@ -391,7 +364,6 @@ main > address a:hover {
   border-radius: 6px;
   margin: 3rem 0;
 }
-
 .cta .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -401,12 +373,9 @@ main > address a:hover {
   text-decoration: none;
   border-radius: 4px;
 }
+.cta .btn:hover { background: #047a04; }
 
-.cta .btn:hover {
-  background: #047a04;
-}
-
-/* === Visually Hidden (moved from inline style) === */
+/* === Visually Hidden Utility === */
 .visually-hidden {
   position: absolute;
   width: 1px;
